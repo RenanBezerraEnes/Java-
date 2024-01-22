@@ -10,5 +10,12 @@ public class TypesOfAssignment {
         int a,b,c,d;
         a = b = c = d = 100;
         System.out.println("a : " + a + "b : " + b);
+
+        //Compound Assignment
+        // Whenever we use operator with assignment operator, it is known as compound assignment
+        int  w = 20;
+        w += 30;
+        System.out.println("W : " + w);
+
     }
 }
